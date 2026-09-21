@@ -92,7 +92,7 @@ export async function lookupArea(lat, lon) {
     return null;
   }
 }
-
+ # Validation IF and OR through this section to the next
 export async function geocode(place) {
   const normalized = normalizePlace(place);
 
